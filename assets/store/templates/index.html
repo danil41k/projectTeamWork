@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="bg-white p-8 rounded-lg shadow-xl">
+        <h1 class="text-5xl font-extrabold mb-4 text-blue-600">🔥 Ласкаво просимо до TechStore!</h1>
+        
+        <p class="text-xl text-gray-600 mb-8">
+            Ми — TechStore, ваш надійний постачальник високоякісних комп'ютерних комплектуючих у Луцьку та по всій Україні. Перегляньте наш каталог і дізнайтеся більше про нас.
+        </p>
+
+        <p class="mt-8 text-md">
+            <a href="{{ url_for('catalog') }}" class="text-blue-500 hover:underline font-medium">Перейти до Каталогу</a> | 
+            <a href="{{ url_for('about') }}" class="text-blue-500 hover:underline font-medium">Дізнатися про нас</a>
+        </p>
+    </div>
+{% endblock %}
