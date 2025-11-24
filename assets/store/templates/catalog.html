@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="text-4xl font-extrabold mb-6 text-gray-800">Каталог Комплектуючих 📂</h1>
+    <p class="text-lg text-gray-600 mb-8">Ознайомтесь з нашими основними категоріями товарів.</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-2">Процесори (CPU)</h2>
+            <p class="text-gray-700">Серце вашого комп'ютера. У нас є моделі від Intel та AMD для будь-яких потреб.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-2">Відеокарти (GPU)</h2>
+            <p class="text-gray-700">Ідеальні рішення для геймерів та професійного рендерингу.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-2">Оперативна пам'ять (RAM)</h2>
+            <p class="text-gray-700">Прискорюйте роботу системи з модулями RAM DDR4 та DDR5.</p>
+        </div>
+
+    </div>
+{% endblock %}
